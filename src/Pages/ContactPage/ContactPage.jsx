@@ -7,3 +7,5 @@ function ContactPage(props) {
     </div>
   );
 }
+
+export default ContactPage;

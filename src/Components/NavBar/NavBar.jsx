@@ -14,12 +14,10 @@ function NavBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto ">
             <Nav.Link as={Link} to="/">
-              Works
+              All Works
             </Nav.Link>
-            <Nav.Link as={Link} to="/about">
-              About
-            </Nav.Link>
-            <NavDropdown title="Dropdown" id="basic-nav-dropdown">
+
+            <NavDropdown title="Individual Works" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -30,6 +28,13 @@ function NavBar() {
                 Separated link
               </NavDropdown.Item>
             </NavDropdown>
+
+            <Nav.Link as={Link} to="/contact">
+              Contact
+            </Nav.Link>
+            <Nav.Link as={Link} to="/about">
+              About
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

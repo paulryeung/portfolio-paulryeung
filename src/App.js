@@ -5,6 +5,7 @@ import HomePage from "./Pages/HomePage/HomePage";
 
 import AboutPage from "./Pages/AboutPage/AboutPage";
 import NavBar from "./Components/NavBar/NavBar";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 class App extends Component {
   render() {

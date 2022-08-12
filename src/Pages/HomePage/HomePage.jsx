@@ -18,13 +18,13 @@ function HomePage(props) {
       description:
         "Tour the Avengers compound for top secret profiles and missions of your favorite heroes!",
       photo: "/images/avengers.jpg",
-      link: "",
+      link: "https://avengers-initiative.herokuapp.com/",
       button: "Check It Out!",
     },
     {
       name: "Garden-Smart",
       description:
-        "Add and show off your garden of vegetables! And how much money you spent.",
+        "Add and show off your garden of vegetables! Waste money on different inputs!",
       photo: "/images/vegetables.jpg",
       link: "",
       button: "Start Planting!",

@@ -4,16 +4,20 @@ import React from "react";
 
 function CardTile(props) {
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src="/images/kirby_square.jpg" />
-      <Card.Body>
-        <Card.Title>Kirby MineSweeper</Card.Title>
-        <Card.Text>
-          Help Kirby clear the bombs so he can resume his life of eating.
-        </Card.Text>
-        <Button variant="primary">Check It Out!</Button>
-      </Card.Body>
-    </Card>
+    <div className="CardTile">
+      <Card
+        style={{ display: "in-line block", width: "300px", margin: "20px" }}
+      >
+        <Card.Img variant="top" src={props.photo} />
+        <Card.Body style={{ height: "120px" }}>
+          <Card.Title>{props.name}</Card.Title>
+          <Card.Text>{props.description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Button variant="primary">Check It Out!</Button>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 

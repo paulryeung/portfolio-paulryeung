@@ -11,6 +11,7 @@ function HomePage(props) {
         "Help Kirby clear bombs so he can resume his life of feasting.",
       photo: "/images/kirby_square.jpg",
       link: "",
+      button: "Help Kirby Now!",
     },
     {
       name: "Avengers Initiative",
@@ -18,13 +19,15 @@ function HomePage(props) {
         "Tour the Avengers compound for top secret profiles and missions of your favorite heroes!",
       photo: "/images/avengers.jpg",
       link: "",
+      button: "Check It Out!",
     },
     {
       name: "Garden-Smart",
       description:
-        "Build and show off your garden of vegetables! And how much money you spent.",
-      photo: "/images/avengers.jpg",
+        "Add and show off your garden of vegetables! And how much money you spent.",
+      photo: "/images/vegetables.jpg",
       link: "",
+      button: "Start Planting!",
     },
   ];
 
@@ -38,17 +41,20 @@ function HomePage(props) {
             name={projects[0].name}
             description={projects[0].description}
             photo={projects[0].photo}
+            button={projects[0].button}
           />
           <CardTile
             name={projects[1].name}
             description={projects[1].description}
             photo={projects[1].photo}
+            button={projects[1].button}
           />
 
           <CardTile
             name={projects[2].name}
             description={projects[2].description}
             photo={projects[2].photo}
+            button={projects[2].button}
           />
         </div>
       </div>

@@ -14,7 +14,7 @@ function CardTile(props) {
           <Card.Text>{props.description}</Card.Text>
         </Card.Body>
         <Card.Body>
-          <Button variant="primary">Check It Out!</Button>
+          <Button variant="primary">{props.button}</Button>
         </Card.Body>
       </Card>
     </div>

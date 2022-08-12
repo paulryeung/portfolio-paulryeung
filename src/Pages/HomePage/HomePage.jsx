@@ -38,20 +38,20 @@ function HomePage(props) {
           <CardTile
             name={projects[0].name}
             description={projects[0].description}
-            photo={projects[0].photo}
+            photo={process.env.PUBLIC_URL + projects[0].photo}
             link={projects[0].link}
           />
           <CardTile
             name={projects[1].name}
             description={projects[1].description}
-            photo={projects[1].photo}
+            photo={process.env.PUBLIC_URL + projects[1].photo}
             link={projects[1].link}
           />
 
           <CardTile
             name={projects[2].name}
             description={projects[2].description}
-            photo={projects[2].photo}
+            photo={process.env.PUBLIC_URL + projects[2].photo}
             link={projects[2].link}
           />
         </div>

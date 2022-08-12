@@ -8,7 +8,11 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function NavBar() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar
+      expand="lg"
+      colorScheme="light"
+      style={{ backgroundColor: "#e3f2fd" }}
+    >
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

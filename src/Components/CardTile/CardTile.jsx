@@ -1,6 +1,7 @@
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function CardTile(props) {
   return (
@@ -14,8 +15,14 @@ function CardTile(props) {
           <Card.Text>{props.description}</Card.Text>
         </Card.Body>
         <Card.Body>
-          <Button variant="primary">Visit Site</Button>
-          <Button variant="primary">Details</Button>
+          <a href={props.link}>
+            <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
+              Visit Site!
+            </Button>
+          </a>
+          <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
+            Details
+          </Button>
         </Card.Body>
       </Card>
     </div>

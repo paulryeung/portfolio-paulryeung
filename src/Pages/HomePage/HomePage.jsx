@@ -10,7 +10,7 @@ function HomePage(props) {
       description:
         "Help Kirby clear bombs so he can resume his life of feasting.",
       photo: "/images/kirby_square.jpg",
-      link: "",
+      link: "https://paulryeung.github.io/Kirby-Minesweeper/",
       button: "Help Kirby Now!",
     },
     {
@@ -35,26 +35,26 @@ function HomePage(props) {
     <div className="HomePage">
       <div className="Container">
         <h1>Welcome to Paul Yeung's Portfolio!</h1>
-        <h3>Please make yourself at home and explore!</h3>
+
         <div className="cards-container">
           <CardTile
             name={projects[0].name}
             description={projects[0].description}
             photo={projects[0].photo}
-            button={projects[0].button}
+            link={projects[0].link}
           />
           <CardTile
             name={projects[1].name}
             description={projects[1].description}
             photo={projects[1].photo}
-            button={projects[1].button}
+            link={projects[1].link}
           />
 
           <CardTile
             name={projects[2].name}
             description={projects[2].description}
             photo={projects[2].photo}
-            button={projects[2].button}
+            link={projects[2].link}
           />
         </div>
       </div>

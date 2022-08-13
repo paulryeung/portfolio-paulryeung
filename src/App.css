@@ -52,6 +52,7 @@
 
 .cards-container {
   min-width: 320px;
+  max-width: 700px;
   display: flex;
   flex-wrap: wrap;
 }

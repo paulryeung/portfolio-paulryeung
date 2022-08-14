@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
+const projects = require("../../projects");
 
 function NavBar() {
   return (
@@ -22,14 +23,18 @@ function NavBar() {
             </Nav.Link>
 
             <NavDropdown title="Individual Works" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item href="#action/3.1">
+                {projects[0].name}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                {projects[1].name}
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">
+                {projects[2].name}
+              </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
-                Separated link
+                {projects[3].name}
               </NavDropdown.Item>
             </NavDropdown>
 

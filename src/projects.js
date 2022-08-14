@@ -1,8 +1,8 @@
 let projects = [
   {
-    name: "Kirby Minesweeper",
+    name: "Kirby & The Tasty Minefields",
     description:
-      "Help Kirby clear bombs so he can resume his life of feasting.",
+      "Help Kirby clear bombs so he can resume feasting! Extra cute Kirby themed Minesweeper game",
     photo: "/images/kirby_square.jpg",
     link: "https://paulryeung.github.io/Kirby-Minesweeper/",
     button: "Help Kirby Now!",
@@ -24,17 +24,9 @@ let projects = [
     button: "Start Planting!",
   },
   {
-    name: "Kirby Minesweeper",
+    name: "Pullup",
     description:
-      "Help Kirby clear bombs so he can resume his life of feasting.",
-    photo: "/images/kirby_square.jpg",
-    link: "https://paulryeung.github.io/Kirby-Minesweeper/",
-    button: "Help Kirby Now!",
-  },
-  {
-    name: "Kirby Minesweeper",
-    description:
-      "Help Kirby clear bombs so he can resume his life of feasting.",
+      "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings!",
     photo: "/images/kirby_square.jpg",
     link: "https://paulryeung.github.io/Kirby-Minesweeper/",
     button: "Help Kirby Now!",

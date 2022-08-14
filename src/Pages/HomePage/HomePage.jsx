@@ -6,13 +6,13 @@ function HomePage(props) {
   return (
     <div className="HomePage">
       <div className="Container">
-        <h1>Welcome to Paul Yeung's Portfolio12!</h1>
+        <h1>Welcome to Paul Yeung's Portfolio!</h1>
 
         <div className="cards-container">
           {projects.map((project) => (
             <CardTile
               name={project.name}
-              description={projects.description}
+              description={project.description}
               photo={process.env.PUBLIC_URL + project.photo}
               link={project.link}
             />

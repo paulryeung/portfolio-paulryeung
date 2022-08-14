@@ -6,7 +6,7 @@ function HomePage(props) {
   return (
     <div className="HomePage">
       <div className="Container">
-        <h1>Welcome to Paul Yeung's Portfolio!</h1>
+        <h1>Welcome to Paul Yeung's Portfolio2!</h1>
 
         <div className="cards-container">
           {projects.map((project) => (

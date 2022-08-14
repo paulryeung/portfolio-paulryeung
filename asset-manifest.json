@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio-paulryeung/static/css/main.1aa0cb52.css",
+    "main.js": "/portfolio-paulryeung/static/js/main.4fb69799.js",
+    "static/js/787.b3a2b723.chunk.js": "/portfolio-paulryeung/static/js/787.b3a2b723.chunk.js",
+    "index.html": "/portfolio-paulryeung/index.html",
+    "main.1aa0cb52.css.map": "/portfolio-paulryeung/static/css/main.1aa0cb52.css.map",
+    "main.4fb69799.js.map": "/portfolio-paulryeung/static/js/main.4fb69799.js.map",
+    "787.b3a2b723.chunk.js.map": "/portfolio-paulryeung/static/js/787.b3a2b723.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1aa0cb52.css",
+    "static/js/main.4fb69799.js"
+  ]
+}

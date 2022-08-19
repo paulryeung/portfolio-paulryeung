@@ -8,6 +8,14 @@ let projects = [
     button: "Help Kirby Now!",
   },
   {
+    name: "Pullup",
+    description:
+      "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings!",
+    photo: "/images/pullup.png",
+    link: "https://paulryeung.github.io/Kirby-Minesweeper/",
+    button: "Help Kirby Now!",
+  },
+  {
     name: "Avengers Initiative",
     description:
       "Tour the Avengers compound for top secret profiles and missions of your favorite heroes!",
@@ -22,14 +30,6 @@ let projects = [
     photo: "/images/vegetables.jpg",
     link: "",
     button: "Start Planting!",
-  },
-  {
-    name: "Pullup",
-    description:
-      "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings!",
-    photo: "/images/kirby_square.jpg",
-    link: "https://paulryeung.github.io/Kirby-Minesweeper/",
-    button: "Help Kirby Now!",
   },
 ];
 

@@ -22,7 +22,7 @@ function NavBar() {
               All Works
             </Nav.Link>
 
-            <NavDropdown title="Individual Works" id="basic-nav-dropdown">
+            <NavDropdown title="GitHub Repos" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">
                 {projects[0].name}
               </NavDropdown.Item>
@@ -32,7 +32,6 @@ function NavBar() {
               <NavDropdown.Item href="#action/3.3">
                 {projects[2].name}
               </NavDropdown.Item>
-              <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
                 {projects[3].name}
               </NavDropdown.Item>

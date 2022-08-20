@@ -12,7 +12,7 @@ let projects = [
     description:
       "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings!",
     photo: "/images/pullup.png",
-    link: "https://paulryeung.github.io/Kirby-Minesweeper/",
+    link: "https://pullup-app.herokuapp.com/",
     button: "Help Kirby Now!",
   },
   {

@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1aa0cb52.css",
-    "main.js": "/static/js/main.3dedb4a2.js",
-    "static/js/787.b3a2b723.chunk.js": "/static/js/787.b3a2b723.chunk.js",
-    "index.html": "/index.html",
-    "main.1aa0cb52.css.map": "/static/css/main.1aa0cb52.css.map",
-    "main.3dedb4a2.js.map": "/static/js/main.3dedb4a2.js.map",
-    "787.b3a2b723.chunk.js.map": "/static/js/787.b3a2b723.chunk.js.map"
+    "main.css": "/portfolio-paulryeung/static/css/main.5d1f9e9c.css",
+    "main.js": "/portfolio-paulryeung/static/js/main.b5b7b2cb.js",
+    "static/js/787.b3a2b723.chunk.js": "/portfolio-paulryeung/static/js/787.b3a2b723.chunk.js",
+    "index.html": "/portfolio-paulryeung/index.html",
+    "main.5d1f9e9c.css.map": "/portfolio-paulryeung/static/css/main.5d1f9e9c.css.map",
+    "main.b5b7b2cb.js.map": "/portfolio-paulryeung/static/js/main.b5b7b2cb.js.map",
+    "787.b3a2b723.chunk.js.map": "/portfolio-paulryeung/static/js/787.b3a2b723.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1aa0cb52.css",
-    "static/js/main.3dedb4a2.js"
+    "static/css/main.5d1f9e9c.css",
+    "static/js/main.b5b7b2cb.js"
   ]
 }

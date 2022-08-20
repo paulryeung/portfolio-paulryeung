@@ -18,8 +18,14 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="m-auto ">
+            <Nav.Link as={Link} to="/Home">
+              Home
+            </Nav.Link>
             <Nav.Link as={Link} to="/">
-              All Works
+              Featured Works
+            </Nav.Link>
+            <Nav.Link as={Link} to="/contact">
+              Contact
             </Nav.Link>
 
             <NavDropdown title="GitHub Repos" id="basic-nav-dropdown">
@@ -36,13 +42,6 @@ function NavBar() {
                 {projects[3].name}
               </NavDropdown.Item>
             </NavDropdown>
-
-            <Nav.Link as={Link} to="/contact">
-              Contact
-            </Nav.Link>
-            <Nav.Link as={Link} to="/about">
-              About
-            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -1,9 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import emailjs from "emailjs-com";
 
+import { normalize } from "path";
+
 function ContactPage(props) {
+  //set state for form variables
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
+  //sending email form
   function sendEmail(e) {
     e.preventDefault();
 
@@ -22,7 +31,7 @@ function ContactPage(props) {
           console.log(error.text);
         }
       );
-    e.target.reset();
+    //e.target.reset();
   }
 
   return (
@@ -36,7 +45,8 @@ function ContactPage(props) {
               type="text"
               placeholder="Name"
               name="name"
-              value="TestPaul"
+              value={name}
+              onChange={(evt) => setName(evt.target.value)}
             />
           </Form.Group>
 
@@ -46,7 +56,8 @@ function ContactPage(props) {
               type="email"
               placeholder="Email"
               name="email"
-              value="ggthisworks@yahoo.ca"
+              value={email}
+              onChange={(evt) => setEmail(evt.target.value)}
             />
           </Form.Group>
 
@@ -56,7 +67,8 @@ function ContactPage(props) {
               type="text"
               placeholder="Subject"
               name="subject"
-              value="testing emailjs"
+              value={subject}
+              onChange={(evt) => setSubject(evt.target.value)}
             />
           </Form.Group>
 
@@ -66,8 +78,8 @@ function ContactPage(props) {
               as="textarea"
               rows={4}
               placeholder="Hi Paul!"
-              name="message"
-              value="we'd like to hire you because this works"
+              name={message}
+              value={(evt) => setMessage(evt.target.value)}
             />
           </Form.Group>
           <Button variant="primary" type="submit">

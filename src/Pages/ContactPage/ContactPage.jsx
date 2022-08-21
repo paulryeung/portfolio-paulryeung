@@ -78,8 +78,9 @@ function ContactPage(props) {
               as="textarea"
               rows={4}
               placeholder="Hi Paul!"
-              name={message}
-              value={(evt) => setMessage(evt.target.value)}
+              name="message"
+              value={message}
+              onChange={(evt) => setMessage(evt.target.value)}
             />
           </Form.Group>
           <Button variant="primary" type="submit">

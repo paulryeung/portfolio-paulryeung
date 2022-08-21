@@ -4,36 +4,17 @@
 }
 
 .Container {
-  min-width: 340px;
+  min-width: 320px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 @keyframes App-logo-spin {
@@ -56,4 +37,20 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+
+.ContactPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-div {
+  min-width: 320px;
+  max-width: 750px;
+  width: 100%;
+  border: 1px silver solid;
+  border-radius: 20px;
+
+  padding: 30px;
 }

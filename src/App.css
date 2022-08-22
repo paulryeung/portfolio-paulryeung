@@ -5,7 +5,6 @@
 
 .Container {
   min-width: 320px;
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,20 +31,33 @@
   text-align: center;
 }
 
-.container {
-  min-width: 320px;
-  max-width: 750px;
-  width: 100%;
+.profile-container {
   display: flex;
+
+  max-width: 750px;
   flex-wrap: wrap;
 }
 
 .portrait > img {
-  width: 320px;
-  height: 430px;
+  width: 310px;
+  height: 420px;
   object-fit: cover;
   border-radius: 30px;
   border: 8px solid silver;
+  margin: 10px;
+}
+
+.info {
+  margin: 10px;
+  width: 330px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.social-icon-btn {
+  margin: 0 5px;
 }
 
 /*====== FEATURED WORKS PAGE STYLING ======*/

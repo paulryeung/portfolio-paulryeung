@@ -15,11 +15,16 @@ function CardTile(props) {
           <Card.Text>{props.description}</Card.Text>
         </Card.Body>
         <Card.Body>
-          <a href={props.link}>
-            <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
-              Visit Site!
-            </Button>
-          </a>
+          <Button
+            style={{ margin: "0 10px 0 10px" }}
+            variant="primary"
+            onClick={() => {
+              window.open(props.link);
+            }}
+          >
+            Visit Site!
+          </Button>
+
           <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
             Details
           </Button>

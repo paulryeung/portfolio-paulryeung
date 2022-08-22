@@ -5,8 +5,11 @@ const projects = require("../../projects.js");
 function HomePage(props) {
   return (
     <div className="HomePage">
-      <div className="Container">
-        <h1>Problem Solving, Efficiency, & Innovation</h1>
+      <div className="container">
+        <div className="portrait">
+          <img src={process.env.PUBLIC_URL + "/images/photo.jpg"} />
+        </div>
+        <div className="info"> </div>
       </div>
     </div>
   );

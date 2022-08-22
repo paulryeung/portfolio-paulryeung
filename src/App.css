@@ -26,11 +26,29 @@
   }
 }
 
+/*====== HOMEPAGE STYLING ======*/
 .HomePage {
   width: 100%;
   text-align: center;
 }
 
+.container {
+  min-width: 320px;
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portrait > img {
+  width: 320px;
+  height: 430px;
+  object-fit: cover;
+  border-radius: 30px;
+  border: 8px solid silver;
+}
+
+/*====== FEATURED WORKS PAGE STYLING ======*/
 .cards-container {
   min-width: 320px;
   max-width: 750px;
@@ -38,6 +56,8 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/*====== CONTACT PAGE STYLING ======*/
 
 .ContactPage {
   display: flex;

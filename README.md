@@ -12,6 +12,8 @@ Portfolio of Software Projects created by Paul Richard Yeung
 - https://paulryeung.github.io/portfolio-paulryeung/
 - Open a web browser and open the link.
 
+-old package.json homepage setup "https://paulryeung.github.io/portfolio-paulryeung"
+
 ## Screenshots
 
 ### Technologies Used and Dependencies

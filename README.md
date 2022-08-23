@@ -28,3 +28,7 @@ General Assembly Github [@paulryeung](https://github.com/paulryeung/portfolio-pa
 ## Next Steps (Possible Future Enhancements)
 
 - More Projects
+
+## Useful Links
+
+- making 404 pages for Github (https://stackoverflow.com/questions/36296012/is-there-a-configuration-in-github-pages-that-allows-you-to-redirect-everything)

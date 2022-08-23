@@ -15,6 +15,9 @@ function WorksPage(props) {
               description={project.description}
               photo={process.env.PUBLIC_URL + project.photo}
               link={project.link}
+              technology={project.technology}
+              howto={project.howto}
+              authors={project.authors}
             />
           ))}
         </div>

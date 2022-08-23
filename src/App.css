@@ -78,6 +78,11 @@ p {
   margin: 0 5px;
 }
 
+/*====== MODAL STYLING ======*/
+.modal-body-div {
+  text-align: left;
+}
+
 /*====== FEATURED WORKS PAGE STYLING ======*/
 .works-container {
   margin: 20px;

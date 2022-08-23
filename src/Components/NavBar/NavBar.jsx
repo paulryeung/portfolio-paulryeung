@@ -29,16 +29,16 @@ function NavBar() {
             </Nav.Link>
 
             <NavDropdown title="GitHub Repos" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href={projects[0].github} target="_blank">
                 {projects[0].name}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
+              <NavDropdown.Item href={projects[1].github} target="_blank">
                 {projects[1].name}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">
+              <NavDropdown.Item href={projects[2].github} target="_blank">
                 {projects[2].name}
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href={projects[3].github} target="_blank">
                 {projects[3].name}
               </NavDropdown.Item>
             </NavDropdown>

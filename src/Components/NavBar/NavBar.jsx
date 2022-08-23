@@ -1,19 +1,16 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
+
 import { useNavigate, Link } from "react-router-dom";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import { SocialIcon } from "react-social-icons";
 const projects = require("../../projects");
 
 function NavBar() {
   return (
-    <Navbar
-      expand="lg"
-      colorScheme="light"
-      style={{ backgroundColor: "#e3f2fd" }}
-    >
+    <Navbar expand="lg" style={{ backgroundColor: "#e3f2fd" }} fixed="top">
       <Container>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

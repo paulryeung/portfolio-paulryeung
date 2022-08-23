@@ -20,7 +20,7 @@ function ConfirmationPage(props) {
       </Link>
       <Link to="/works">
         <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
-          See Works
+          See Projects
         </Button>
       </Link>
       <Button

@@ -1,11 +1,8 @@
 import React, { Component } from "react";
-import CardTile from "../../Components/CardTile/CardTile";
+
 import { SocialIcon } from "react-social-icons";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-
-//this goes after imports
-const projects = require("../../projects.js");
 
 function HomePage(props) {
   return (

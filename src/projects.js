@@ -10,7 +10,7 @@ let projects = [
   {
     name: "Pullup",
     description:
-      "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings!",
+      "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings! Introducing the AirBnB of parking!",
     photo: "/images/pullup.png",
     link: "https://pullup-app.herokuapp.com/",
     github: "https://github.com/paulryeung/Pull-up",
@@ -28,7 +28,7 @@ let projects = [
     description:
       "Add and show off your garden of vegetables! Waste money on different inputs!",
     photo: "/images/vegetables.jpg",
-    link: "",
+    link: "https://garden-smart-app.herokuapp.com/",
     github: "https://github.com/paulryeung/Garden-Smart",
   },
 ];

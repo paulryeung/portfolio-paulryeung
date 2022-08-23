@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import CardTile from "../../Components/CardTile/CardTile";
 import { SocialIcon } from "react-social-icons";
+import Button from "react-bootstrap/Button";
+import { Link } from "react-router-dom";
+
+//this goes after imports
 const projects = require("../../projects.js");
 
 function HomePage(props) {
@@ -23,6 +27,11 @@ function HomePage(props) {
             ways to expand and scale your business, while seeking out untapped
             opportunities.
           </p>
+          <Link to="/works">
+            <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
+              See Featured Works!
+            </Button>
+          </Link>
           <div className="social-icons-div">
             <SocialIcon
               className="social-icon-btn"
@@ -36,6 +45,9 @@ function HomePage(props) {
               network="github"
               onClick={() => window.open("https://github.com/paulryeung")}
             />
+            <Link to="/contact">
+              <SocialIcon className="social-icon-btn" network="email" />
+            </Link>
           </div>
         </div>
       </div>

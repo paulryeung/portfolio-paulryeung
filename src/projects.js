@@ -5,7 +5,7 @@ let projects = [
       "Help Kirby clear bombs so he can resume feasting! Extra cute Kirby themed Minesweeper game",
     photo: "/images/kirby_square.jpg",
     link: "https://paulryeung.github.io/Kirby-Minesweeper/",
-    button: "Help Kirby Now!",
+    github: "https://github.com/paulryeung/Kirby-Minesweeper",
   },
   {
     name: "Pullup",
@@ -13,7 +13,7 @@ let projects = [
       "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings!",
     photo: "/images/pullup.png",
     link: "https://pullup-app.herokuapp.com/",
-    button: "Help Kirby Now!",
+    github: "https://github.com/paulryeung/Pull-up",
   },
   {
     name: "Avengers Initiative",
@@ -21,7 +21,7 @@ let projects = [
       "Tour the Avengers compound for top secret profiles and missions of your favorite heroes!",
     photo: "/images/avengers.jpg",
     link: "https://avengers-initiative.herokuapp.com/",
-    button: "Check It Out!",
+    github: "https://github.com/paulryeung/avengers-initiative",
   },
   {
     name: "Garden-Smart",
@@ -29,7 +29,7 @@ let projects = [
       "Add and show off your garden of vegetables! Waste money on different inputs!",
     photo: "/images/vegetables.jpg",
     link: "",
-    button: "Start Planting!",
+    github: "https://github.com/paulryeung/Garden-Smart",
   },
 ];
 

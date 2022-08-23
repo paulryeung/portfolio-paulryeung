@@ -5,7 +5,7 @@ const projects = require("../../projects.js");
 function WorksPage(props) {
   return (
     <div className="HomePage">
-      <div className="Container">
+      <div className="works-container">
         <h1>Featured Works</h1>
 
         <div className="cards-container">

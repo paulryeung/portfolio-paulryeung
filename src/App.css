@@ -3,7 +3,7 @@
   background-color: rgb(251, 251, 251);
 }
 
-.Container {
+.app-container {
   min-width: 320px;
   display: flex;
   flex-direction: column;
@@ -29,12 +29,17 @@
 .HomePage {
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .profile-container {
   display: flex;
 
   max-width: 750px;
+  flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -56,11 +61,30 @@
   justify-content: space-between;
 }
 
+.title > h2,
+h3,
+p {
+  text-align: center;
+}
+
+.social-icons-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .social-icon-btn {
   margin: 0 5px;
 }
 
 /*====== FEATURED WORKS PAGE STYLING ======*/
+.works-container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .cards-container {
   min-width: 320px;
   max-width: 750px;
@@ -78,11 +102,22 @@
 }
 
 .form-div {
+  margin: 20px;
   min-width: 320px;
   max-width: 750px;
   width: 100%;
   border: 1px silver solid;
   border-radius: 20px;
 
+  padding: 30px;
+}
+
+/*====== CONFIRMATION PAGE STYLING ======*/
+.ConfirmationPage {
+  margin: 20px;
+  min-width: 320px;
+  max-width: 750px;
+  text-align: center;
+  border: 1px solid blue;
   padding: 30px;
 }

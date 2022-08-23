@@ -6,7 +6,7 @@ function WorksPage(props) {
   return (
     <div className="HomePage">
       <div className="works-container">
-        <h1>Featured Works</h1>
+        <h1>Projects</h1>
 
         <div className="cards-container">
           {projects.map((project) => (
@@ -18,6 +18,7 @@ function WorksPage(props) {
               technology={project.technology}
               howto={project.howto}
               authors={project.authors}
+              github={project.github}
             />
           ))}
         </div>

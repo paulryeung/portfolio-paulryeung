@@ -26,7 +26,7 @@ function HomePage(props) {
           </p>
           <Link to="/works">
             <Button style={{ margin: "0 10px 0 10px" }} variant="primary">
-              See Featured Works!
+              See Projects!
             </Button>
           </Link>
           <div className="social-icons-div">

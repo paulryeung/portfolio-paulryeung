@@ -19,7 +19,7 @@ function NavBar() {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/works">
-              Featured Works
+              Projects
             </Nav.Link>
             <Nav.Link as={Link} to="/contact">
               Contact

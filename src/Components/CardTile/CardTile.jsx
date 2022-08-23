@@ -12,7 +12,7 @@ function CardTile(props) {
   return (
     <div className="CardTile">
       <Card
-        className="shadow-lg p-3 mb-5 bg-white rounded"
+        className="shadow p-3 mb-5 bg-white rounded"
         style={{ display: "in-line block", width: "320px", margin: "20px" }}
       >
         <Card.Img variant="top" src={props.photo} style={{ height: "180px" }} />
@@ -70,6 +70,15 @@ function CardTile(props) {
           </div>
         </Modal.Body>
         <Modal.Footer>
+          <Button
+            style={{ margin: "0 10px 0 10px" }}
+            variant="primary"
+            onClick={() => {
+              window.open(props.github);
+            }}
+          >
+            See GitHub Repository
+          </Button>
           <Button variant="secondary" onClick={handleClose}>
             Close
           </Button>

@@ -4,6 +4,7 @@ let projects = [
     description:
       "Help Kirby clear bombs so he can resume feasting! Extra cute Kirby themed Minesweeper game",
     photo: "/images/kirby_square.jpg",
+    status: "100% MVP Completion, 30% Icebox Completion",
     link: "https://paulryeung.github.io/Kirby-Minesweeper/",
     github: "https://github.com/paulryeung/Kirby-Minesweeper",
     technology: "Vanilla Javascript, HTML, and CSS",
@@ -16,8 +17,10 @@ let projects = [
     description:
       "Pullup onto a residential driveway you rented! Reserve parking spots from home owner listings! Introducing the AirBnB of parking!",
     photo: "/images/pullup.png",
+    status: "85% MVP Completion, 10% Icebox Completion",
     link: "https://pullup-app.herokuapp.com/",
     github: "https://github.com/paulryeung/Pull-up",
+
     technology:
       "MERN stack (Mongo DB Atlas, Express.js, React, Node.js), Google Maps API, Google Autocomplete API, SASS styling, Heroku",
     howto:
@@ -34,6 +37,7 @@ let projects = [
     description:
       "Tour the Avengers compound for top secret profiles and missions of your favorite heroes!",
     photo: "/images/avengers.jpg",
+    status: "100% MVP Completion, 15% Icebox Completion",
     link: "https://avengers-initiative.herokuapp.com/",
     github: "https://github.com/paulryeung/avengers-initiative",
     technology: "Mongo DB Atlas, Express.js, Node.js, Heroku",
@@ -46,6 +50,7 @@ let projects = [
     description:
       "Add and show off your garden of vegetables! Waste money on different inputs!",
     photo: "/images/vegetables.jpg",
+    status: "65% MVP Completion, 5% Icebox Completion",
     link: "https://garden-smart-app.herokuapp.com/",
     github: "https://github.com/paulryeung/Garden-Smart",
     technology: "Python, Django, PostgreSQL, AWS S3 Buckets, Heroku",

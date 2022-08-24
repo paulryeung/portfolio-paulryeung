@@ -57,7 +57,8 @@ function CardTile(props) {
           <div className="modal-body-div">
             <h3>Technology Stack</h3>
             <p>{props.technology}</p>
-
+            <h3>Project Status</h3>
+            <p>{props.status}</p>
             <h3>How To Use</h3>
             <p>{props.howto}</p>
 

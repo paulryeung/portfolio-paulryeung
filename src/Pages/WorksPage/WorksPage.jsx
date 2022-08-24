@@ -13,6 +13,7 @@ function WorksPage(props) {
             <CardTile
               name={project.name}
               description={project.description}
+              status={project.status}
               photo={process.env.PUBLIC_URL + project.photo}
               link={project.link}
               technology={project.technology}

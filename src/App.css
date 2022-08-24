@@ -57,10 +57,12 @@
 }
 
 .profile-container {
-  margin-top: 20px;
+  margin-top: 10px;
+
   display: flex;
   position: relative;
   max-width: 750px;
+
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
@@ -82,7 +84,7 @@
 .info {
   margin: 10px;
   width: 330px;
-
+  height: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -110,9 +112,17 @@ p {
   cursor: pointer;
 }
 
+.techstack-info {
+  margin-top: 20px;
+  min-width: 320px;
+
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
 .note {
   position: relative;
-  margin-top: 30px;
   min-width: 320px;
   max-width: 750px;
 }

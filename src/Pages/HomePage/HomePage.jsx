@@ -14,7 +14,7 @@ function HomePage(props) {
         <div className="info">
           <div className="title">
             <h2>Paul Yeung</h2>
-            <h3>Full Stack Developer</h3>
+            <h4>Full Stack Developer</h4>
           </div>
           <p>
             Problem Solving, Efficiency, and Innovation! These are my 3 core
@@ -47,13 +47,31 @@ function HomePage(props) {
             </Link>
           </div>
         </div>
-      </div>
-      <br />
-      <div className="note">
-        <h3>
-          Note to Viewers: You can push the bubbles with your mouse and spawn
-          more by clicking!
-        </h3>
+
+        <div className="techstack-info">
+          <h3>Languages and Technologies</h3>
+          <p>JavaScript, Python, Java, C++, HTML, CSS</p>
+
+          <h3>Frameworks, Libraries, Cloud Hosting Services</h3>
+          <p>
+            React, Express, Node.js, Django, Heroku, AWS S3 (buckets), GitHub,
+            Bootstrap, SASS,
+          </p>
+
+          <h3>Databases</h3>
+          <p>Relational: MySQL, PostgreSQL, Non-Relational: Mongo DB</p>
+          <h3>Full Stack</h3>
+          <p>
+            MERN Stack- Mongo DB, Express, React, Node.js <br /> Python, Django,
+            PostgreSQL
+          </p>
+        </div>
+        <div className="note">
+          <h4>
+            Note to Viewers: You can push the bubbles with your mouse and spawn
+            more by clicking!
+          </h4>
+        </div>
       </div>
     </div>
   );

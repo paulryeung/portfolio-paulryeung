@@ -48,6 +48,13 @@ function HomePage(props) {
           </div>
         </div>
       </div>
+      <br />
+      <div className="note">
+        <h3>
+          Note to Viewers: You can push the bubbles with your mouse and spawn
+          more by clicking!
+        </h3>
+      </div>
     </div>
   );
 }

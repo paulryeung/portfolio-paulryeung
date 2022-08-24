@@ -51,11 +51,13 @@
   width: 100%;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .profile-container {
+  margin-top: 20px;
   display: flex;
   position: relative;
   max-width: 750px;
@@ -106,6 +108,13 @@ p {
 
 .social-icon-btn:hover {
   cursor: pointer;
+}
+
+.note {
+  position: relative;
+  margin-top: 30px;
+  min-width: 320px;
+  max-width: 750px;
 }
 
 /*====== MODAL STYLING ======*/
